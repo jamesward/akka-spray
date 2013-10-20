@@ -1,3 +1,5 @@
+packageArchetype.java_application
+
 name := """akka-spray"""
 
 version := "1.0"
@@ -34,5 +36,3 @@ scalacOptions ++= Seq(
 )
 
 testOptions += Tests.Argument(TestFrameworks.JUnit, "-v")
-
-packagerSettings
